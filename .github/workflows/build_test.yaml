@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - synology-fix
     paths-ignore:
       - '*.md'
       - .github/workflows/*.yaml
