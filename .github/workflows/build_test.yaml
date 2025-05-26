@@ -23,8 +23,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - runs_on: [self-hosted, Linux, ARM64]
-            docker_arch: arm64v8
           - runs_on: ubuntu-latest
             docker_arch: amd64
     steps:
@@ -60,8 +58,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - runs_on: [self-hosted, Linux, ARM64]
-            docker_arch: arm64v8
           - runs_on: ubuntu-latest
             docker_arch: amd64
     steps:
